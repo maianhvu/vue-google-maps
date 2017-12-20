@@ -9,33 +9,26 @@ import mountableMixin from '../utils/mountableMixin.js';
 
 const props = {
   zoom: {
-    twoWay: true,
     type: Number
   },
   pov: {
-    twoWay: true,
     type: Object,
     trackProperties: ['pitch', 'heading']
   },
   position: {
-    twoWay: true,
     type: Object,
   },
   pano: {
-    twoWay: true,
     type: String
   },
   motionTracking: {
-    twoWay: false,
     type: Boolean
   },
   visible: {
-    twoWay: true,
     type: Boolean,
     default: true,
   },
   options: {
-    twoWay: false,
     type: Object,
     default () {return {};}
   }

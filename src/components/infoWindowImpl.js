@@ -16,12 +16,10 @@ const props = {
     default: true,
   },
   position: {
-    type: Object,
-    twoWay: true,
+    type: Object
   },
   zIndex: {
-    type: Number,
-    twoWay: true,
+    type: Number
   }
 };
 

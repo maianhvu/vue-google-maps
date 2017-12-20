@@ -10,28 +10,22 @@ import mountableMixin from '../utils/mountableMixin.js';
 const props = {
   center: {
     required: true,
-    twoWay: true,
     type: Object
   },
   zoom: {
     required: false,
-    twoWay: true,
     type: Number
   },
   heading: {
     type: Number,
-    twoWay: true,
   },
   mapTypeId: {
-    twoWay: true,
     type: String
   },
   bounds: {
-    twoWay: true,
     type: Object,
   },
   tilt: {
-    twoWay: true,
     type: Number,
   },
   options: {

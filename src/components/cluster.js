@@ -17,19 +17,15 @@ import MarkerClusterer from 'marker-clusterer-plus';
 const props = {
   maxZoom: {
     type: Number,
-    twoWay: false
   },
   calculator: {
     type: Function,
-    twoWay: false
   },
   gridSize: {
     type: Number,
-    twoWay: false
   },
   styles: {
     type: Array,
-    twoWay: false
   }
 };
 

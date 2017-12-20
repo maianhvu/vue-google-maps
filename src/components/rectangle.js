@@ -8,7 +8,6 @@ import getPropsValuesMixin from '../utils/getPropsValuesMixin.js';
 const props = {
   bounds: {
     type: Object,
-    twoWay: true
   },
   draggable: {
     type: Boolean,
@@ -20,7 +19,6 @@ const props = {
   },
   options: {
     type: Object,
-    twoWay: false
   }
 };
 

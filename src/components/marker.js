@@ -6,7 +6,6 @@ import MapElementMixin from './mapElementMixin';
 
 const props = {
   animation: {
-    twoWay: true,
     type: Number
   },
   attribution: {
@@ -14,20 +13,16 @@ const props = {
   },
   clickable: {
     type: Boolean,
-    twoWay: true,
     default: true
   },
   cursor: {
     type: String,
-    twoWay: true
   },
   draggable: {
     type: Boolean,
-    twoWay: true,
     default: false
   },
   icon: {
-    twoWay: true
   },
   label: {
   },
@@ -43,22 +38,17 @@ const props = {
   },
   position: {
     type: Object,
-    twoWay: true,
   },
   shape: {
     type: Object,
-    twoWay: true
   },
   title: {
     type: String,
-    twoWay: true
   },
   zIndex: {
     type: Number,
-    twoWay: true
   },
   visible: {
-    twoWay: true,
     default: true,
   },
 };

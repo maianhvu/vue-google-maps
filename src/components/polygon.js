@@ -17,11 +17,9 @@ const props = {
   },
   path: {
     type: Array,
-    twoWay: true
   },
   paths: {
     type: Array,
-    twoWay: true
   },
   deepWatch: {
     type: Boolean,
